@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Aryan Vohra" />
+    <meta
+      name="description"
+      content="This is the contact page of aryans cafe house"
+    />
+    <link rel="icon" href="img/cat.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <nav>
+      <li><a href="/">Home</a></li>
+      <li><a href="/#Aryan_cafe_house">ACH</a></li>
+      <li><a href="/#menu">Menu</a></li>
+      <li><a href="hours.html">Store Hours</a></li>
+    </nav>
+    <h1>Aryans Cafe House Contact page</h1>
+    <figure>
+      <img
+        src="img/ramen.webp"
+        alt="ramen"
+        title="a picture of ramne"
+        width="612"
+        height="409"
+      />
+      <figcaption>This is a beautiful plate of ramen</figcaption>
+    </figure>
+    <hr />
+
+    <form action="https://httpbin.org/post" method="post">
+      <fieldset>
+        <legend>send us a message</legend>
+        <p>
+          <label for="user_name">Name:</label>
+          <input
+            type="text"
+            name="user_name"
+            id="user_name"
+            placeholder="enter your name"
+            autofocus
+            required
+          />
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter your email address"
+          />
+        </p>
+
+        <p>
+          <label for="textarea">Your message</label>
+          <br />
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            placeholder="enter your message"
+          ></textarea>
+        </p>
+      </fieldset>
+
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+    <h2>Our location</h2>
+    <address>
+      555 japan street 1,lane 23,
+      <br />
+      shibuya,japan: MO 1234567890
+    </address>
+    <p>phone:&nbsp;<a href="tel:1234567890">1234567890</a></p>
+    <p><a href="#">back to the top</a></p>
+    <hr />
+    <p>copyright &copy; Aryan Vohra Cafe House</p>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: #b8f2e6;
+  color: #28282b;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #3a0ca3;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
